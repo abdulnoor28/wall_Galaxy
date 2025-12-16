@@ -11,7 +11,7 @@ const Consultation = () => {
       </h2>
 
       {/* Wrapper */}
-      <div className="relative w-full md:w-[70%] lg:w-[50%] max-w-[1100px]">
+      <div className="relative w-full md:w-[70%] lg:w-[50%] max-w-275">
 
         {/* Glass Card */}
         <div className="w-full bg-white/20 backdrop-blur-2xl rounded-2xl p-5 sm:p-8 md:p-10">
@@ -52,7 +52,7 @@ const Consultation = () => {
         <img
           src={image}
           alt="man"
-          className="hidden lg:block absolute bottom-0 right-[-154px] w-[45%] max-h-[450px] object-contain"
+          className="hidden lg:block absolute bottom-0 -right-38.5 w-[45%] max-h-112.5 object-contain"
         />
 
       </div>
